@@ -16,8 +16,14 @@ public class Reverser {
 
     public void reverse(Reader reader)
     throws IOException {
+        
         // Insert code between here ...
-
+        List<String> tmp = new ArrayList<String>();
+            do {
+                ch = br.readLine();
+                out.print(ch+"<br/>"); 
+            } while (ch != null);
+            fr.close();
         // ... and here!
         // ATTENTION: Do not use any standard library classes in your solution!
     }
