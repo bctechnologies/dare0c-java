@@ -16,6 +16,17 @@ public class Reverser {
 
     public void reverse(Reader reader)
     throws IOException {
+      
+        String temp = ""; 
+        
+        for (int i = reader.length; i>0; i--){
+            
+            temp=  temp+reader.charAt(i); 
+        
+        
+        }
+        
+       reader= temp;  
         // Insert code between here ...
 
         // ... and here!
